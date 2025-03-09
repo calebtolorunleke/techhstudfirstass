@@ -32,7 +32,6 @@ textarea {
   width: 400px;
   border-radius: 5px;
 }
-
 #button {
   height: 35px;
   margin-top: 10px;
@@ -43,7 +42,6 @@ textarea {
   background-color: rgb(6, 6, 214);
   color: rgb(255, 255, 255);
 }
-
 #button:hover {
   color: rgb(73, 3, 73);
   background-color: blanchedalmond;
@@ -52,3 +50,68 @@ textarea {
 @media (and max:600px) {
     
 } */
+
+@media (max-width:1024px) {
+    .messaging {
+        background-color: rgb(251, 249, 249);
+        height: 450px;
+        width: 300px;
+        margin: auto;
+        margin-top: 10%;
+        padding: 10px 50px;
+        text-align: justify;
+        border-top: 5px solid rgb(6, 6, 214);
+        border-radius: 10px;
+      }
+
+      input {
+        width: 300px;
+        border-radius: 3px;
+        border: 1px solid black;
+      }
+      textarea {
+        width: 300px;
+      }
+      #button {
+        height: 35px;
+        margin-top: 10px;
+        margin-bottom: 25px;
+        width: 300px;
+      }
+}
+
+@media (max-width:450px) {
+    .messaging {
+        height: 290px;
+        width: 250px;
+        margin: auto;
+        margin-top: 40%;
+        padding: 5px 10px;
+        text-align: justify;
+        border-top: 5px solid rgb(6, 6, 214);
+        border-radius: 10px;
+      }
+      h1 {
+        font-size: 15px;
+      }
+
+    input {
+        width: 230px;
+        border-radius: 3px;
+        border: 1px solid black;
+        height: 15px;
+        margin-top: 2px;
+        margin-bottom: 10px;
+      }
+      textarea {
+        width: 230px;
+        margin-top: 2px;
+        margin-bottom: 10px;
+      }
+    #button {
+        height: 25px;
+        margin-top: 10px;
+        margin-bottom: 25px;
+        width: 230px;
+      }
+}
